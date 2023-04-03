@@ -54,7 +54,7 @@ int main() {
                 // check if the user exists
                 if (user_index != -1) {
                     while (1) {
-                        printf("What do you want to do?\n")
+                        printf("What do you want to do?\n");
                         printf("1. Deposit\n");
                         printf("2. Withdraw\n");
                         printf("3. Check balance\n");
@@ -103,7 +103,7 @@ void register_user(User *users, int *num_users) {
     }
 
     User new_user;
-    printf("Thank you for choosing Munga Services please proceed to register")
+    printf("Thank you for choosing Munga Services please proceed to register\n");
     // Get user information
     printf("Fullname: ");
     scanf("%s", new_user.name);
@@ -120,7 +120,7 @@ void register_user(User *users, int *num_users) {
     printf("Location: ");
     scanf("%s", new_user.location);
 
-    printf("Please fill in the details to be used for Log in: \n")
+    printf("Please fill in the details to be used for Log in: \n");
     printf("Preffered Username: ");
     scanf("%s", new_user.username);
 
